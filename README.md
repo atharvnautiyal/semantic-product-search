@@ -1,10 +1,10 @@
-# 🔍 Semantic Product Search Engine
+# Semantic Product Search Engine
 
 A machine learning-powered product search system that understands **user intent** instead of relying on exact keyword matches. Built using **Sentence-BERT embeddings + FAISS vector search**, enabling fast and relevant retrieval over large product datasets.
 
 ---
 
-## 🚀 Demo
+## Demo
 
 Search queries like:
 
@@ -16,7 +16,7 @@ Returns semantically relevant products even when exact keywords don’t match.
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Traditional keyword-based search (TF-IDF, BM25) fails to capture semantic meaning.
 
@@ -28,7 +28,7 @@ This project solves this using vector embeddings that capture meaning beyond key
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 
 User Query
@@ -44,7 +44,7 @@ Streamlit UI
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - NLP Model: Sentence-Transformers (`all-MiniLM-L6-v2`)
 - Vector Database: FAISS
@@ -54,7 +54,7 @@ Streamlit UI
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
 semantic-product-search/
@@ -83,7 +83,7 @@ semantic-product-search/
 
 ---
 
-## ⚡ How It Works
+## How It Works
 
 1. Preprocess data (merge product + category, create combined text)
 2. Generate embeddings using Sentence-BERT
@@ -93,7 +93,7 @@ semantic-product-search/
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 Compared semantic search against a TF-IDF baseline using a proxy relevance metric.
 
@@ -105,7 +105,7 @@ This shows semantic search improves relevance over keyword-based methods.
 
 ---
 
-## 🖥️ Running the Project
+## Running the Project
 
 ### 1. Install dependencies
 
@@ -139,7 +139,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 - Semantic search (understands intent, not just keywords)
 - Fast retrieval using FAISS
@@ -149,7 +149,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 🧠 Learnings
+## Learnings
 
 - Semantic vs keyword search
 - Vector embeddings
@@ -159,7 +159,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Use advanced FAISS indexes (IVF, HNSW)
 - Add caching for faster queries
@@ -168,10 +168,8 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Atharv Nautiyal
 
 ---
-
-## ⭐ If you found this useful, give it a star!
