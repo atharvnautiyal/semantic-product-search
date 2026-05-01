@@ -53,9 +53,9 @@ Streamlit UI
 - Baseline Model: TF-IDF (for evaluation)
 
 ---
-
+```
 ## Project Structure
----
+
 
 semantic-product-search/
 │
@@ -79,8 +79,7 @@ semantic-product-search/
 │
 ├── requirements.txt
 └── README.md
----
-
+```
 ---
 
 ## How It Works
