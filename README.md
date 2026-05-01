@@ -55,7 +55,7 @@ Streamlit UI
 ---
 
 ## Project Structure
-
+---
 
 semantic-product-search/
 │
@@ -79,7 +79,7 @@ semantic-product-search/
 │
 ├── requirements.txt
 └── README.md
-
+---
 
 ---
 
